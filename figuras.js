@@ -1,24 +1,17 @@
 // Código del cuadrado
 console.group("Cuadrados");
 
-function perimetroCuadrado(lado) {
-    return lado * 4;
-}
+const perimetroCuadrado = (lado) => lado * 4;
 
-function areaCuadrado(lado){
-    return lado * lado;
-}
+const areaCuadrado = (lado) => lado * lado;
 
 console.groupEnd()
+
 // Código del triángulo
 
-function perimetroTriangulo(lado1, lado2, base){
-    return lado1 + lado2 + base;
-}
+const perimetroTriangulo = (lado1, lado2, base) => lado1 + lado2 + base;
 
-function areaTriangulo(base, altura){
-    return (base*altura)/2;
-} 
+const areaTriangulo = (base, altura) => (base * altura) / 2;
     
 console.groupEnd()
     
@@ -26,23 +19,12 @@ console.groupEnd()
 console.group("Círculos");
 
 // Diametro
-function diametroCirculo(radio){
-    return radio*2;
-}
-
-// Pi
-const Pi=Math.PI;
-console.log("Pi es: "+ Pi + "cm");
+const diametroCirculo = (radio) => radio * 2;
 
 // Circunferencia
-function perimetroCirculo (radio) {
-    const diametro = diametroCirculo(radio);
-    return diametro * Pi;
-}
+const perimetroCirculo = (radio) => diametroCirculo(radio) * Math.PI;
 
 // Area
-function areaCirculo(radio){
-    return (radio*radio)*Pi;
-}
+const areaCirculo = (radio) => (radio * radio) * Math.PI;
 
 console.groupEnd();
