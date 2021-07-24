@@ -79,12 +79,12 @@ header p{
     margin-block-start: 2rem;
     display: flex;
     justify-content: space-around;
+    font-size: 1.3rem;
 }
 
 .figura__buttons button{
     height: 3rem;
     background-color: rgb(255, 255, 255);
-    /* color: white; */
 }
 
 .figura__form-input{
@@ -93,4 +93,8 @@ header p{
     grid-template-columns: 50% 50%;
     grid-row-gap: .7rem;
     grid-column-gap: .7rem;
+}
+
+.figura__form-paragraph{
+    font-size: 2rem;
 }
