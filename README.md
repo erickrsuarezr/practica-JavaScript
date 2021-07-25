@@ -13,3 +13,9 @@ Practica con JavaScript
 - Segundo paso: Implementar las fórmulas en JavaScript
 - Tercer paso: Crear funciones
 - Cuarto paso: Integrar JavaScript con HTMl
+
+## Taller 3: promedio, mediana y moda
+- Primer paso: Definir las fórmulas
+- Segundo paso: Implementar las fórmulas en JavaScript
+- Tercer paso: Crear funciones
+- Cuarto paso: Integrar JavaScript con HTMl
